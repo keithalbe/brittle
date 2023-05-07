@@ -1,3 +1,5 @@
+[![Brittle](https://github.com/keithalbe/brittle/actions/workflows/brittle.yml/badge.svg)](https://github.com/keithalbe/brittle/actions/workflows/brittle.yml)
+
 # Brittle - A Marvel SNAP move analyzer, written in Rust.
 > "If something rusty SNAPs, it's Brittle!"
 
