@@ -1,4 +1,4 @@
-name: Brittle CI
+name: Brittle Commit Test
 on:
   push:
     branches: [ "main" ]
@@ -6,11 +6,13 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 jobs:
-  build_and_run:
+  Test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions-rust-lang/setup-rust-toolchain@v1
       - uses: actions/checkout@v3
-      - run: |
+      
+      - name: Build and Run Brittle
+        run: |
           cd brittle
           cargo run
