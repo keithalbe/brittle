@@ -10,7 +10,7 @@ Given a screenshot of the game, Brittle will reveal all possible moves, and prov
 4. `[ to do ]` Computing analytics based on aggregated information
 
 ## How to use Brittle (Linux)
-__Packages:__ `rust`, `cargo`
+__Packages:__ `rust`, `cargo`, `opencv-devel`, `clang`
 
 __Compile and Run:__ `cd brittle && cargo run`
 
@@ -20,5 +20,5 @@ __Compile and Run:__ `cd brittle && cargo run`
 ### Dependency Installation for `Fedora 38`
 ```
 sudo dnf upgrade
-sudo dnf install rust cargo
+sudo dnf install rust cargo opencv-devel clang
 ```
